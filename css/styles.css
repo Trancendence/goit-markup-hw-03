@@ -7,6 +7,8 @@
 --main-color5:#757575;
 --main-color6:#F5F4FA;
 --main-color7:#2F303A;
+--main-color8:#ECECEC;
+--main-color9:#EEEEEE;
 }
 /* Body */
 body {
@@ -22,7 +24,10 @@ background:var(--main-color1);
 a {
 text-decoration: none;
 }
-
+.section {
+padding-top: 94px;
+padding-bottom:94px;
+}
 .link:hover {
 color:var(--main-color2);
 }
@@ -82,6 +87,8 @@ cursor: pointer;
 /* top line bg */
 .topline {
 background:var(--main-color1);
+top: 80px;
+border: 1px solid var(--main-color8);
 }
 
 /* Topnav */
@@ -111,7 +118,7 @@ color:var(--main-color2);
 .studio {
 font-weight: 500;
 color:var(--main-color);
-margin-left: 93px;
+margin-left: 94px;
 
 }
 
@@ -155,13 +162,11 @@ margin-right: 215px;
 font-weight: 700;
 text-transform: uppercase;
 line-height: 1.14;
-padding-top: 94px;
 }
 
 .uvaga2 {
 line-height: 1.71;
 color:var(--main-color3);
-margin-bottom: 94px;
 }
 
 /* Чим ми займаємося */
@@ -203,9 +208,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-margin-top: 94px;
 margin-bottom: 50px;
-padding-top: 94px;
 }
 .list-item2 {
 display: flex;
@@ -384,7 +387,6 @@ display: flex;
 flex-wrap: wrap;
 gap: 30px;
 margin-left: 215px;
-margin-right: 215px;
 margin-bottom: 94px;
 }
 
@@ -393,7 +395,6 @@ margin-bottom: 94px;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
-/* identical to box height, or 200% */
 letter-spacing: 0.06em;
 }
 .description {
@@ -402,4 +403,10 @@ letter-spacing: 0.06em;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color:var(--main-color3);
+}
+.container {
+width: 1200px;
+}
+.boxes {
+border-bottom: 1px solid var(--main-color9);
 }
