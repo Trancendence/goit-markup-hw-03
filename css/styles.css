@@ -44,7 +44,10 @@ clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;
   } 
-
+/* Current */
+.current {
+color: var(--main-color2);
+}
 /* Bg */
 .bg {
 background:var(--main-color);
@@ -159,12 +162,14 @@ margin-left: 215px;
 margin-right: 215px;
 }
 .uvaga1 {
+font-size: 14px;
 font-weight: 700;
 text-transform: uppercase;
 line-height: 1.14;
 }
 
 .uvaga2 {
+font-size: 14px;
 line-height: 1.71;
 color:var(--main-color3);
 }
