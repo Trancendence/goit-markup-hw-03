@@ -139,7 +139,8 @@ font-weight: 500;}
 .list-item {
 display: flex;
 justify-content:space-between;}
-.uvaga1 {
+
+.text2 {
 font-size: 14px;
 font-weight: 700;
 text-transform: uppercase;
@@ -147,7 +148,7 @@ line-height: 1.14;
 margin: 0 auto;
 padding-bottom: 10px;
 padding-right: 30px;}
-.uvaga2 {
+.text3 {
 font-size: 14px;
 line-height: 1.71;
 color:var(--main-color3);
@@ -166,8 +167,9 @@ margin-bottom:50px;}
 display:flex;
 flex-direction:row;
 justify-content:space-between;
-margin: 0 auto;
+margin: 0;
 padding-bottom: 94px;}
+.lielement2 {}
 /* Наша команда */
 .command {
 background-color: var(--main-color6);}   
@@ -271,14 +273,18 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-margin: 0 auto;}
+margin:0;}
 /* Description */
 .description {
 font-size: 16px;
 line-height: 1.88;
 color:var(--main-color3);
-margin: 0 auto;}
+margin:0;}
 /* Boxes */
 .boxes {
-margin-right: auto;
-margin-bottom: 30px;}
+margin-right: 30px;
+margin-bottom: 30px;
+flex-basis: calc(100% / 3 - 60px);}
+.boxes:nth-of-type(3n) {
+margin-right:0; 
+}
