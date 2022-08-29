@@ -281,7 +281,8 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-margin:0;}
+margin:0;
+margin-bottom: 4px;}
 /* Description */
 .description {
 font-size: 16px;
@@ -289,7 +290,6 @@ line-height: 1.88;
 color:var(--main-color3);
 margin:0;}
 /* Boxes */
-.boxes {}
-.boxes:nth-of-type(3n) {
-margin-right:0; 
+.boxes {
+width: calc(100% / 3 - 2 * 30px);
 }
