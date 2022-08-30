@@ -269,6 +269,7 @@ color: var(--main-color1);}
 display: flex;
 flex-wrap: wrap;
 gap: 30px;}
+
 /* boxtext */
 .boxtext {
 padding: 20px 24px 24px 20px;
@@ -291,5 +292,5 @@ color:var(--main-color3);
 margin:0;}
 /* Boxes */
 .boxes {
-width: calc(100% / 3 - 2 * 30px);
+width: calc(100% / 3 - 20px);
 }
