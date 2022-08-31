@@ -281,7 +281,7 @@ border-left: 1px solid var(--main-color9);}
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
-letter-spacing: 0.06em;
+letter-spacing: 0.05em;
 margin:0;
 margin-bottom: 4px;}
 /* Description */
@@ -292,5 +292,5 @@ color:var(--main-color3);
 margin:0;}
 /* Boxes */
 .boxes {
-width: calc(100% / 3 - 20px);
+width: calc((100% - 60px) / 3);
 }
